@@ -486,23 +486,22 @@
             this.getConfig();
             this.getLabelPosition()
         },
-         mounted(){
-         window.onresize = () => {
+        mounted(){
+            window.onresize = () => {
                 this.getLabelPosition()
             }
-          },
+        },
         methods: {
             getLabelPosition(){
-                            let windowWidth = window.innerWidth
-
-            console.log('getLabelPosition',windowWidth)
+                let windowWidth = window.innerWidth
+                console.log('getLabelPosition',windowWidth)
                 if(windowWidth < 768){
-                this.labelPosition = 'top'
-                this.size= 'mini'
+                    this.labelPosition = 'top'
+                    this.size= 'mini'
                 }
                 else {
-                this.labelPosition = 'left'
-                this.size = 'medium'
+                    this.labelPosition = 'left'
+                    this.size = 'medium'
                 }
 
             },
