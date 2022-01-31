@@ -1,5 +1,5 @@
 # dst-admin:Steam平台饥荒联机版管理后台
-> 工作之余，发挥余热，弄了一个steam平台的Don't Starve Together 饥荒联机版管理后台，支持傻瓜式服务器部署，方便有兴趣折腾服务器的小伙伴可以快速的搭建服务器。
+> 基于大佬@qingming的饥荒管理后台进一步添加白名单的功能
 
 ## 支持的功能
 1.  支持一键启动停止地面和洞穴服务
@@ -17,8 +17,8 @@
 2.  Java环境需要**JDK 1.8**
 
 ## 注意事项
-1.  服务默认监听端口8080
-2.  默认用户名/密码 admin/123456
+1.  服务默认监听端口0226
+2.  默认用户名/密码 biubush/era666666
 3.  饥荒监听端口**10888，10999，10998**（建议开放所有端口，避免一些问题）
 
 ## docker版本部署请参考：[点击查看](https://github.com/qinming99/dst-admin/blob/master/file/README.md)
@@ -67,23 +67,6 @@ chmod +x ./startDst.sh
      
 ```
 
-## 预览图
-
-![img](https://github.com/qinming99/dst-admin/blob/master/images/image1.png)
-![img](https://github.com/qinming99/dst-admin/blob/master/images/image2.png)
-![img](https://github.com/qinming99/dst-admin/blob/master/images/yanshi.gif)
-## 饥荒交流群
-
-QQ群： **1005887957(被屏蔽?)**
-![img](https://github.com/qinming99/dst-admin/blob/master/images/qq_class.png)
-
-
-## END
-
-- 如果有任何建议或者 Bug:sob: 可以提 issue ，或者可以直接加群联系
-
-
 ## 感谢
-
-- <a href="https://www.jetbrains.com/?from=dst-admin"><img src="https://github.com/qinming99/dst-admin/blob/master/images/jet-logo.jpg" width="100px" alt="jetbrains">**感谢 JetBrains 提供的免费开源 License**</a>
+@qingming的开源代码
 
