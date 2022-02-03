@@ -13,7 +13,7 @@
 9.  支持远程控制台，可在管理后台踢人、回滚、重置世界
 
 ## 环境要求
-1.  系统需**Ubuntu** （16.04,18.04已测试，其他版本Ubuntu未测试,其他发行版Linux的搭建可以加群交流）
+1.  系统需**Ubuntu**（建议18.04)
 2.  Java环境需要**JDK 1.8**
 
 ## 注意事项
@@ -33,7 +33,7 @@ sudo apt-get update
 sudo apt-get install -y openjdk-8-jdk
 #查看版本
 java -version
-显示 "openjdk version "1.8.0_252"就表示安装完成
+显示 "openjdk version "1.8.0_312"就表示安装完成
 ```      
 ###  下载最新版dst-admin安装包
 
